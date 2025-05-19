@@ -1,4 +1,0 @@
-mappings:
-  DataObjectHistory: gorriecoe\DataObjectHistory\Extensions
-  GridFieldHistoryButton: gorriecoe\DataObjectHistory\Forms
-  HistoryGridFieldItemRequest: gorriecoe\DataObjectHistory\Forms

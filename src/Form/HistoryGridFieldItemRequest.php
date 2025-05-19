@@ -1,5 +1,5 @@
 <?php
-namespace gorriecoe\DataObjectHistory\Forms;
+namespace gorriecoe\DataObjectHistory\Form;
 
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\HiddenField;
@@ -117,7 +117,7 @@ class HistoryGridFieldItemRequest extends VersionedGridFieldItemRequest
         }
 
         // Save from form data
-        $record->doRollbackTo($record->Version);
+        $record->rollbackRecursive($record->Version);
         $link = '<a href="' . $this->Link('edit') . '">"'
             . htmlspecialchars($record->Title, ENT_QUOTES)
             . '"</a>';

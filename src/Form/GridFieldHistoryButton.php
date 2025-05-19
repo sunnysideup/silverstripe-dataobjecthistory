@@ -1,6 +1,6 @@
 <?php
 
-namespace gorriecoe\DataObjectHistory\Forms;
+namespace gorriecoe\DataObjectHistory\Form;
 
 use SilverStripe\Control\Controller;
 use SilverStripe\View\ArrayData;

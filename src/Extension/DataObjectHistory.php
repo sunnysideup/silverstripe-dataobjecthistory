@@ -1,6 +1,6 @@
 <?php
 
-namespace gorriecoe\DataObjectHistory\Extensions;
+namespace gorriecoe\DataObjectHistory\Extension;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\FieldList;
@@ -16,8 +16,8 @@ use SilverStripe\Forms\GridField\GridFieldViewButton;
 use SilverStripe\Security\Member;
 use SilverStripe\Versioned\Versioned;
 use Symbiote\GridFieldExtensions\GridFieldTitleHeader;
-use gorriecoe\DataObjectHistory\Forms\GridFieldHistoryButton;
-use gorriecoe\DataObjectHistory\Forms\HistoryGridFieldItemRequest;
+use gorriecoe\DataObjectHistory\Form\GridFieldHistoryButton;
+use gorriecoe\DataObjectHistory\Form\HistoryGridFieldItemRequest;
 
 /**
  * DataObjectHistory
