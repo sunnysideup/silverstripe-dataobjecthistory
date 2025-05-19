@@ -1,5 +1,5 @@
 {
-  "name": "gorriecoe/silverstripe-dataobjecthistory",
+  "name": "sunnysideup/silverstripe-dataobjecthistory",
   "description": "Adds a history tab to dataobjects",
   "type": "silverstripe-vendormodule",
   "license": "BSD-3-Clause",
